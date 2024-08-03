@@ -1,0 +1,135 @@
+/* Reset default margins and paddings */
+body, ul, p,li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+   
+    
+    padding: 50px 20px;
+    text-align: center;
+}
+h1 {
+    text-align: left; /* Ensures the heading is aligned to the left */
+    color: #333; /* Dark gray color for the text */
+}
+h4 {
+    text-align: left; /* Ensures the heading is aligned to the left */
+    color: #333; /* Dark gray color for the text */
+}
+
+
+.cta-section {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+.right-align li {
+    text-align: right;
+}
+.cta-button {
+    display: inline-block;
+    background:#73787d17;
+    color: #898686;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+.about-section {
+    padding: 20px;
+}
+
+.about-section ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.featured-section {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-section {
+    padding: 20px;
+    background: #fff;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-section form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.contact-section form button {
+    display: block;
+    width: 100%;
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
